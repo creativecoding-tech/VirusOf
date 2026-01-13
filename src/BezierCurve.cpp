@@ -45,7 +45,7 @@ void BezierCurve::update() {
     float cycleDuration = 1000; // Frame per cycle (mengembang + menyusut)
 
     // Update timer
-    oscillationTime += 1;
+    oscillationTime += 0.9;
     if (oscillationTime > cycleDuration) {
         oscillationTime = 0;
     }

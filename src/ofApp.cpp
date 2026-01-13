@@ -93,7 +93,7 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
 	ofFill();
-	ofSetColor(0, 60);
+	ofSetColor(0, 20);
 	ofDrawRectangle(0, 0, ofGetWidth(), ofGetHeight());
 	ofNoFill();
 	for (auto& curve : allCurves) {
