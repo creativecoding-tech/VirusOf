@@ -72,14 +72,20 @@ Cek hasilnya di YouTube: **[VirusOf - Processing vs OpenFrameworks Performance](
 ### Setup
 
 ```bash
-# Clone this repo
-git clone https://github.com/username/VirusOf.git
+# Jalankan OpenFrameworks Project Generator
+# Buka: openFrameworks/apps/projectGenerator/projectGenerator.exe
 
-# Open Visual Studio
+# Import project yang sudah diclone
+# 1. Click "Import" pada Project Generator
+# 2. Navigate ke folder VirusOf yang sudah diclone
+# 3. Select folder dan klik "Select Current Folder"
+# 4. Click "Update" atau "Generate"
+
+# Buka Visual Studio
 # Double-click: VirusOf.sln
 
 # Build & Run
-# Press F5 or click "Local Windows Debugger"
+# Press F5 atau klik "Local Windows Debugger"
 ```
 
 ---
